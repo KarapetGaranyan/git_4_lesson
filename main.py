@@ -18,3 +18,9 @@ print(get_max(10, 5, 8))  # Выведет 10
 
 print(celsius_to_fahrenheit(0))   # Выведет 32.0
 print(celsius_to_fahrenheit(100)) # Выведет 212.0
+
+# добавили левую функцию из ветки test
+def greeting(name):
+    """Создает персонализированное приветствие"""
+    return f"Привет, {name}!"
+
