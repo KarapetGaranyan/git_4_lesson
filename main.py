@@ -9,3 +9,7 @@ def get_max(a, b, c):
 def celsius_to_fahrenheit(celsius):
     """Конвертирует температуру из Цельсия в Фаренгейт"""
     return (celsius * 9/5) + 32
+
+def sum_list(numbers):
+    """Вычисляет сумму всех чисел в списке"""
+    return sum(numbers)
