@@ -10,6 +10,7 @@ def celsius_to_fahrenheit(celsius):
     """Конвертирует температуру из Цельсия в Фаренгейт"""
     return (celsius * 9/5) + 32
 
+
 # Примеры использования
 print(is_even(4))  # Выведет True
 print(is_even(7))  # Выведет False
@@ -23,4 +24,5 @@ print(celsius_to_fahrenheit(100)) # Выведет 212.0
 def greeting(name):
     """Создает персонализированное приветствие"""
     return f"Привет, {name}!"
+
 
